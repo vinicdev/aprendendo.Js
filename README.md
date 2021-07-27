@@ -9,6 +9,14 @@ Acesse meu notion, para acompanhar minhas anotações sobre o conteúdo: <a href
 </h4>
 
 
+## Tecnologias
+
+- JavaScript
+
+## Como instalar
+
+Necessário apenas um navegador!
+
 ### Autor
 ---
 

@@ -17,10 +17,32 @@
     <h1>Iniciando estudos DOM</h1>
     <p>Aqui vaio resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
-    <div>Clique em mim</div>
+    <div id="msg">Clique em mim</div>
 
     <script>
-        window.document.write(window.document.URL)
+        //seleção comum
+        /*
+        var p1 = window.document.getElementsByTagName('p')[1] // selecionando a tag p
+        var corpo = window.document.body // chamando o elemento body
+        var d = window.document.getElementById('msg') // chamando a id msg
+
+        window.document.write(p1.innerText) //mostrando o texto de p
+        p1.style.color = 'red' // trocando a cor de p
+
+        corpo.style.background = 'black' // trocando a cor de fundo da página
+
+        d.style.background = 'green' // trocando a cor de fundo da div
+        d.innerText = 'estou aguardando...' // trocando o que esta escrito na div
+        window.document.getElementById('msg').innerText = 'Salvee'
+        */
+
+        // window.document.write(window.document.URL //chamando um elemento com árvore DOM
+
+        //seleção por querySelector
+
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'blue'
+
     </script>
 </body>
 </html>

@@ -21,9 +21,6 @@ button {
     border-radius: 7px;
 }
 
-input {
+p {
     cursor: pointer;
-    background: black;
-    color: white;
-    border-radius: 7px;
 }

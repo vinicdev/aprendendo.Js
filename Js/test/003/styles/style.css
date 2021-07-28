@@ -1,0 +1,22 @@
+body {
+    
+    text-align: center;
+}
+
+div {
+    padding: 100px;
+    /* padding-bottom: 1px; */
+}
+
+h1 {
+    font-family: 'Style Script', cursive;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+button {
+    cursor: pointer;
+    background: black;
+    color: white;
+    border-radius: 7px;
+}

@@ -15,7 +15,7 @@ Acesse meu notion, para acompanhar minhas anotações sobre o conteúdo: <a href
 
 ## Como instalar
 
-Necessário apenas um navegador!
+Necessário apenas o navegador!
 
 ### Autor
 ---

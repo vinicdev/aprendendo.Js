@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio ex009</title>
+</head>
+<body>
+    <h1>Onde você mora?</h1>
+    Eu sou do<input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Teste aqui" name="botaoteste" id="botaoteste" onclick="testarpais()">
+    <div id="res"></div>
+    <h1 id="vPais">País não informado</h1>
+
+    <script>
+        function testarpais(){
+            var p = window.document.querySelector('input#txtpais')
+            var pais = p.value
+            var res = window.document.querySelector('div#res')
+            var resPais = window.document.querySelector('h1#vPais')
+
+            if((pais == 'Brasil')||(pais == 'brasil')){
+                res.innerHTML = `<p>Você é Brasileiro!</p>`
+                resPais.innerHTML = 'País: Brasil'
+            }else {
+                res.innerHTML = 'Você é estrangeiro!'
+                resPais.innerHTML = `País: ${pais}`
+            }
+        }
+    </script>
+</body>
+</html>

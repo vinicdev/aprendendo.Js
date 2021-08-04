@@ -10,7 +10,7 @@
 <body>
     <!-- Início do header -->
     <header>
-        <h1>Título</h1>
+        <h1>Tabuada</h1>
     </header>
     <!-- Fim do header -->
 
@@ -21,10 +21,14 @@
             <p>Número:
                 <input type="number" name="numTabuada" id="numTabuada">
                 <input type="button" value="Gerar Tabuada" onclick="gerartabuada()">
+                <input type=button value="recarregar" onClick="history.go(0)">
             </p>
         </div>
-        <div id="res">
-            Resultado:
+        <div>
+            <p id="res">Resultado:</p>
+            <select name="taduada" id="seltab" size="10">
+                <option>Digite um número acima 👆👆</option>
+            </select>
         </div>
     </section>
     <!-- Fim da section -->

@@ -1,5 +1,5 @@
 //Receber os números
-let num = document.querySelector('input#txtnum')
+let num = window.document.querySelector('input#txtnum')
 let lista = document.querySelector('select#selnum')
 let res = document.querySelector('div#res')
 let valores = []
